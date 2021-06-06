@@ -717,6 +717,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b"
 
 [[package]]
+name = "routefinder"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "22f31612e8ff2655dea0bfb15d0534e0413da817224c389629d82470eddfc43e"
+
+[[package]]
 name = "signal-hook"
 version = "0.3.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -866,6 +872,7 @@ dependencies = [
  "pretty_env_logger",
  "trillium",
  "trillium-logger",
+ "trillium-router",
  "trillium-smol",
  "trillium-testing",
 ]
@@ -912,6 +919,17 @@ dependencies = [
  "colored",
  "log",
  "size",
+ "trillium",
+]
+
+[[package]]
+name = "trillium-router"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "98a85fe839c2bfdc8afd2248021858841dedc3977eedd8828b398b2f847f61dd"
+dependencies = [
+ "log",
+ "routefinder",
  "trillium",
 ]
 
