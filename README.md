@@ -9,6 +9,8 @@ started building a trillium application is to
 4. run `RUST_LOG=info cargo run`
 5. visit [http://localhost:8080](http://localhost:8080)
 
+To run the tests, execute `cargo test`
+
 To learn more about trillium
 * [trillium.rs](https://trillium.rs)
 * [docs.trillium.rs](https://docs.trillium.rs)
