@@ -1,4 +1,4 @@
-# trillium.rs example app
+# trillium.rs template
 
 This scaffolding is a template repo on github. An easy way to get
 started building a trillium application is to
