@@ -1,0 +1,13 @@
+[package]
+name = "trillium-example-app"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+pretty_env_logger = "0.4.0"
+trillium = "0.1.1"
+trillium-logger = "0.1.0"
+trillium-smol = "0.1.0"
+
+[dev-dependencies]
+trillium-testing = "0.1.0"
