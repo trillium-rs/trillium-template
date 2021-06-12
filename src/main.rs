@@ -29,7 +29,7 @@ fn application() -> impl Handler {
 
 fn main() {
     pretty_env_logger::init();
-    trillium_smol::run(application())
+    ${{runtime_crate_use}}::run(application())
 }
 
 #[cfg(test)]
