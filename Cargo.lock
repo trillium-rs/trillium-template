@@ -13,9 +13,9 @@ dependencies = [
 
 [[package]]
 name = "anyhow"
-version = "1.0.40"
+version = "1.0.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "28b2cd92db5cbd74e8e5028f7e27dd7aa3090e89e4f2a197cc7c8dfb69c7063b"
+checksum = "15af2628f6890fe2609a3b91bef4c83450512802e59489f9c1cb1fa5df064a61"
 
 [[package]]
 name = "async-channel"
@@ -387,9 +387,9 @@ checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
 name = "libc"
-version = "0.2.95"
+version = "0.2.97"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "789da6d93f1b866ffe175afc5322a4d76c038605a1c3319bb57b06967ca98a36"
+checksum = "12b8adadd720df158f4d70dfe7ccc6adb0472d7c55ca83445f6a5ab3e36f8fb6"
 
 [[package]]
 name = "log"
@@ -718,9 +718,9 @@ checksum = "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b"
 
 [[package]]
 name = "routefinder"
-version = "0.3.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "22f31612e8ff2655dea0bfb15d0534e0413da817224c389629d82470eddfc43e"
+checksum = "c92860363ccb1bd5d1e36a5b9ed6e113a837f8ff8697229329f696c959916e7d"
 
 [[package]]
 name = "signal-hook"
@@ -800,9 +800,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.72"
+version = "1.0.73"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a1e8cdbefb79a9a5a65e0db8b47b723ee907b7c7f8496c76a1770b5c310bab82"
+checksum = "f71489ff30030d2ae598524f61326b902466f72a0fb1a8564c001cc63425bcc7"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -855,9 +855,9 @@ checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
 
 [[package]]
 name = "trillium"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1b2216372ab9d4f9f4efc70fb9b0a182a88637108701057817fbede926c201a2"
+checksum = "6723761ed8c910ae3f78a48e46d3ec47cde09b37ef03fa4609242ee3c6e9b574"
 dependencies = [
  "async-trait",
  "futures-lite",
@@ -879,9 +879,9 @@ dependencies = [
 
 [[package]]
 name = "trillium-http"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9b8708b2254114afd17cb4eeb410901305f9995d2397921fc08c38be86579cd7"
+checksum = "f879412c6c6497488a171fd4b1ecd7e9329de26a35dee85a59e92e048688a417"
 dependencies = [
  "encoding_rs",
  "futures-lite",
@@ -912,9 +912,9 @@ dependencies = [
 
 [[package]]
 name = "trillium-logger"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b0724f7ebbd30c7af72f6085cac8841b323c4d4d15228ce7696d72ae9c2393b6"
+checksum = "435ce3d909b637a51a34ab480709eb55a917a7d02d8644f42230cc567dd402df"
 dependencies = [
  "colored",
  "log",
@@ -924,9 +924,9 @@ dependencies = [
 
 [[package]]
 name = "trillium-router"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "98a85fe839c2bfdc8afd2248021858841dedc3977eedd8828b398b2f847f61dd"
+checksum = "766541f2e0810a15ff50953306448e298477f247d35a2f7eec296a03322370bf"
 dependencies = [
  "log",
  "routefinder",
@@ -935,9 +935,9 @@ dependencies = [
 
 [[package]]
 name = "trillium-server-common"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5bbbdf07d1386a825d7ccda56ed61ffe75cbe2cf53673c7224cb644d542bc9ed"
+checksum = "b8cc9570a1fbb0271a2c2b0b0edd229749904cfda83895b152df4ed45500b6e1"
 dependencies = [
  "async-channel",
  "atomic-waker",
@@ -951,9 +951,9 @@ dependencies = [
 
 [[package]]
 name = "trillium-smol"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "77abd12ce9a04309f6cd02f64fd9fdea60797bc437cc5c7d33c423b576e55574"
+checksum = "b2a79808a019d2b3f8d061a10a40862c0dd85805901426a606e424de14b1d6b9"
 dependencies = [
  "async-global-executor",
  "async-io",

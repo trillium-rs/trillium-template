@@ -5,10 +5,10 @@ edition = "2018"
 
 [dependencies]
 pretty_env_logger = "0.4.0"
-trillium = "0.1.1"
+trillium = "0.1.2"
 trillium-logger = "0.1.0"
-trillium-router = "0.1.0"
-trillium-smol = "0.1.0"
+trillium-router = "0.1.1"
+trillium-smol = "0.1.1"
 
 [dev-dependencies]
 trillium-testing = "0.1.0"
