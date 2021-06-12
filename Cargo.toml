@@ -8,7 +8,7 @@ pretty_env_logger = "0.4"
 trillium = "0.1"
 trillium-logger = "0.1"
 trillium-router = "0.1"
-${{runtime_crate_name}} = "0.1"
+{{runtime_crate_name}} = "0.1"
 
 [dev-dependencies]
 trillium-testing = "0.1"
