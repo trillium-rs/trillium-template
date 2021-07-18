@@ -6,7 +6,7 @@ started building a trillium application is to
 1. click the green "Use this template" button on this repo
 2. clone it to your computer
 3. cd into the directory
-4. run `RUST_LOG=info cargo run`
+4. execute `cargo run`
 5. visit [http://localhost:8080](http://localhost:8080)
 
 To run the tests, execute `cargo test`
