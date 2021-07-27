@@ -1221,9 +1221,9 @@ checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
 
 [[package]]
 name = "trillium"
-version = "0.1.4"
+version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "05496356eaee1bcfb823ba14887905fa73cd41019eec7711a21333f0eab2ec08"
+checksum = "a7f36592f7c00e34ee576b9ce4deffaa8bf1b0545341c024bd4d4b6e7591456e"
 dependencies = [
  "async-trait",
  "futures-lite",

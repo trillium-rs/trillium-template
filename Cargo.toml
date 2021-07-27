@@ -5,7 +5,7 @@ edition = "2018"
 
 [dependencies]
 pretty_env_logger = "0.4.0"
-trillium = "0.1.4"
+trillium = "0.1.5"
 trillium-conn-id = "0.1.0"
 trillium-cookies = "0.1.0"
 trillium-head = "0.1.0"
