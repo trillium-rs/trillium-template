@@ -893,6 +893,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f497285884f3fcff424ffc933e56d7cbca511def0c9831a7f9b5f6153e3cc89b"
 
 [[package]]
+name = "rlimit"
+version = "0.6.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "cc0bf25554376fd362f54332b8410a625c71f15445bca32ffdfdf4ec9ac91726"
+dependencies = [
+ "libc",
+]
+
+[[package]]
 name = "routefinder"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1364,10 +1373,27 @@ dependencies = [
 ]
 
 [[package]]
-name = "trillium-smol"
-version = "0.1.3"
+name = "trillium-server-common"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "76eca3c50a2b3c6ae4124329c2cab760f7b25e1bc349b095752d7b7a6326569d"
+checksum = "fade34e9a0db68d99c8b3d2e8a67c6c1e47f7572a7a976566a3da7003dc67abe"
+dependencies = [
+ "async-channel",
+ "atomic-waker",
+ "futures-lite",
+ "log",
+ "pin-project-lite",
+ "rlimit",
+ "trillium",
+ "trillium-http",
+ "trillium-tls-common",
+]
+
+[[package]]
+name = "trillium-smol"
+version = "0.1.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d7fd34973b0415026898193fdbe1f76673db7379cfb0d312610d68872ec1a00d"
 dependencies = [
  "async-global-executor",
  "async-io",
@@ -1378,7 +1404,7 @@ dependencies = [
  "signal-hook-async-std",
  "trillium",
  "trillium-http",
- "trillium-server-common",
+ "trillium-server-common 0.2.0",
 ]
 
 [[package]]
@@ -1393,7 +1419,7 @@ dependencies = [
  "portpicker",
  "trillium",
  "trillium-http",
- "trillium-server-common",
+ "trillium-server-common 0.1.2",
  "trillium-smol",
 ]
 
