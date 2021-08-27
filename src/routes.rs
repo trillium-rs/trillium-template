@@ -6,7 +6,7 @@ pub async fn hello_world(conn: Conn) -> Conn {
 }
 
 pub async fn hello_name(conn: Conn) -> Conn {
-    let name = conn_unwrap!(conn, conn.param("name"));
+    let name = conn_unwrap!(conn.param("name"), conn);
     let body = format!("hello, {}!", name);
     conn.ok(body)
 }
