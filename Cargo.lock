@@ -1239,9 +1239,9 @@ dependencies = [
 
 [[package]]
 name = "trillium-logger"
-version = "0.2.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8be48fdc7b88e5f31118de6c2dd76b437cd1b663e85352880f47d8a836c9622b"
+checksum = "21a01e95a1a2021c465ed2773f9be589bc3b0138523389fd99366d1537c70fcd"
 dependencies = [
  "atty",
  "chrono",
