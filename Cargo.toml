@@ -5,7 +5,7 @@ edition = "2018"
 
 [dependencies]
 trillium = "0.2.1"
-trillium-conn-id = "0.2.0"
+trillium-conn-id = "0.2.1"
 trillium-cookies = "0.2.0"
 trillium-head = "0.2.0"
 trillium-logger = "0.4.0"
