@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2018"
 
 [dependencies]
-trillium = "0.2.4"
+trillium = "0.2.5"
 trillium-compression = "0.1.0"
 trillium-conn-id = "0.2.1"
 trillium-cookies = "0.3.0"
