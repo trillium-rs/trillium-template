@@ -11,7 +11,7 @@ trillium-cookies = "0.3.0"
 trillium-head = "0.2.0"
 trillium-logger = "0.4.0"
 trillium-method-override = "0.2.0"
-trillium-router = "0.3.3"
+trillium-router = "0.3.5"
 trillium-smol = "0.2.1"
 
 [dev-dependencies]
