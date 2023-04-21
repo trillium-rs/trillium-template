@@ -1074,14 +1074,14 @@ checksum = "1f3ccbac311fea05f86f61904b462b55fb3df8837a366dfc601a0161d0532f20"
 
 [[package]]
 name = "trillium"
-version = "0.2.8"
+version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "79b4d1605a08d6bda5d3023035007fad7f220aa4aeefb24caac3856c0dfdede8"
+checksum = "3f06392b9c819adcd9416b88d26244603e73ca84d40b191e7a751524b30bb3a9"
 dependencies = [
  "async-trait",
  "futures-lite",
  "log",
- "trillium-http",
+ "trillium-http 0.3.0",
 ]
 
 [[package]]
@@ -1164,6 +1164,28 @@ dependencies = [
 ]
 
 [[package]]
+name = "trillium-http"
+version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ebe2d7f65b0f99e2b138650addffb1075a859aaf08accbcdd850e48357cbb77f"
+dependencies = [
+ "encoding_rs",
+ "futures-lite",
+ "hashbrown",
+ "httparse",
+ "httpdate",
+ "log",
+ "memmem",
+ "mime",
+ "smallvec",
+ "smartcow",
+ "smartstring",
+ "stopper",
+ "thiserror",
+ "trillium-macros",
+]
+
+[[package]]
 name = "trillium-logger"
 version = "0.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1175,6 +1197,17 @@ dependencies = [
  "size",
  "time",
  "trillium",
+]
+
+[[package]]
+name = "trillium-macros"
+version = "0.0.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6d19bf7f37bc3e66beae9792c0f7a0e3500465cf431da63fdb6af593b0e353a4"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.10",
 ]
 
 [[package]]
@@ -1210,7 +1243,7 @@ dependencies = [
  "pin-project-lite",
  "rlimit",
  "trillium",
- "trillium-http",
+ "trillium-http 0.2.13",
  "trillium-tls-common",
 ]
 
@@ -1228,7 +1261,7 @@ dependencies = [
  "signal-hook",
  "signal-hook-async-std",
  "trillium",
- "trillium-http",
+ "trillium-http 0.2.13",
  "trillium-server-common",
 ]
 
@@ -1244,7 +1277,7 @@ dependencies = [
  "futures-lite",
  "portpicker",
  "trillium",
- "trillium-http",
+ "trillium-http 0.2.13",
  "trillium-server-common",
  "trillium-smol",
  "url",
